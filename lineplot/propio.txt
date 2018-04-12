@@ -1,0 +1,15 @@
+time	value	class
+0	0	WT
+1,05	0	WT
+2,27	0,014	WT
+3,52	0,025	WT
+4,22	0,039	WT
+4,88	0,044	WT
+7	0,03	WT
+0	0	Iso
+1,05	0	Iso
+2,27	0	Iso
+3,52	0	Iso
+4,22	0	Iso
+4,88	0	Iso
+7	0	Iso

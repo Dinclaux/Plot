@@ -1,6 +1,7 @@
-Plot.Rproj
-.Rproj.user/
-.RData
-Boxplot/secret/
-Barplot/secret/
-.Rhistory
+*
+!*/Barplot/Barplot.R
+!*/Barplot/data.txt
+!*/Boxplot/Boxplot.R
+!*/Boxplot/Bucket.txt
+!*/lineplot/lineplot.R
+!*/lineplot/propio.txt

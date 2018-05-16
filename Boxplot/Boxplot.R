@@ -17,7 +17,7 @@ if (!require("plotly")) {
 ###                     Reading data                      ###
 #############################################################
 
-setwd("~/Labo/Données/Script/Boxplot")
+setwd("~/Labo/DonnÃ©es/Script/Plot/Boxplot")
 
 dat<-read.table('Bucket.txt',header=TRUE, dec = ",")
 
@@ -62,3 +62,8 @@ p <-layout(p,
                         gridwidth = 2),
            legend =l)
 p
+
+if (!require("webshot")) install.packages("webshot")
+tmpFile <- tempfile(fileext = ".png")
+export(p, file = tmpFile)
+browseURL(tmpFile)
